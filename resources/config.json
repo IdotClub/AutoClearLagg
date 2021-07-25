@@ -1,0 +1,27 @@
+{
+  "seconds": 300,
+  "clear": {
+    "items": true,
+    "mobs": true,
+    "xp_orbs": true,
+    "exempt": [
+      "Zombie",
+      "Pig"
+    ]
+  },
+  "messages": {
+    "time_left": "§cEntities will clear in {SECONDS} seconds",
+    "entities_cleared": "§cCleared a total of {COUNT} entities"
+  },
+  "times": [
+    60,
+    30,
+    15,
+    10,
+    5,
+    4,
+    3,
+    2,
+    1
+  ]
+}

@@ -71,7 +71,7 @@ class AutoClearLagg extends PluginBase {
 					}
 				}
 				if ($messageBean->getEntitiesClearedFormat() !== "") {
-					$this->getServer()->broadcastMessage(str_replace("{COUNT}", $entitiesCleared, $messageBean->getEntitiesClearedFormat()));
+					$this->getServer()->broadcastMessage(str_replace("{COUNT}", (string) $entitiesCleared, $messageBean->getEntitiesClearedFormat()));
 				}
 				$this->seconds = $this->bean->getSeconds();
 			} elseif ($messageBean->getTimeLeftFormat() !== "" && in_array($this->seconds, $this->bean->getDisplayTimes(), true)) {

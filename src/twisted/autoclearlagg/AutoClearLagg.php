@@ -11,7 +11,7 @@ use pocketmine\entity\object\ItemEntity;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\ClosureTask;
 use pocketmine\utils\AssumptionFailedError;
-use Webmozart\PathUtil\Path;
+use Symfony\Component\Filesystem\Path;
 use function in_array;
 use function str_replace;
 use function strtolower;
